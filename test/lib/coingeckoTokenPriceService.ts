@@ -50,6 +50,8 @@ export class CoingeckoTokenPriceService implements TokenPriceService {
                 return 'polygon-pos';
             case 42161:
                 return 'arbitrum-one';
+            case 43114:
+                return 'avalanche';
         }
 
         return '2';
@@ -65,6 +67,8 @@ export class CoingeckoTokenPriceService implements TokenPriceService {
                 return '';
             case 42161:
                 return 'eth';
+            case 43114:
+                return ''
         }
 
         return '';

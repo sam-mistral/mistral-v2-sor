@@ -79,6 +79,7 @@ export const Query: { [chainId: number]: string } = {
     42: queryWithLinear,
     137: queryWithOutLinear,
     42161: queryWithLinear,
+    43114: queryWithOutLinear
 };
 
 export class SubgraphPoolDataService implements PoolDataService {
